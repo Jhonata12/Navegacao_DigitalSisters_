@@ -6,13 +6,13 @@ body{
 .img1{
   width: 800px ;
   margin-top: -150px;
-  margin-left: 100px;
+  margin-left: 380px;
   margin-bottom: 70px;
 }
 
 iframe{
     height: 200px;
-    width: 1000px;
+    width: 1550px;
     margin: 5px;
     border: solid 2px;
     border-color: white;
@@ -25,16 +25,37 @@ iframe:hover{
     scale: 1.03;
 }
 
-@media (min-width: 100px) and (max-width: 369px) {
 
-}
+@media (min-width: 100px) and (max-width: 369px) {
+  iframe{
+      width: 900px;
+  }
+  .img1{
+    margin-left: -10px !important;
+    scale: 0.85;
+  }
+  }
+
 
 
 @media (min-width: 370px) and (max-width: 450px) {
-
+iframe{
+    width: 1000px;
+}
+.img1{
+  margin-left: 100px !important;
+}
 }
 
 
-@media (min-width: 451px) and (max-width: 950px) {
+
+@media (min-width: 1020px) and (max-width: 1577px) {
+iframe{
+  width: 1550px;
+}
+
+.img1{
+  margin-left: 350px !important;
+}
 
 }
