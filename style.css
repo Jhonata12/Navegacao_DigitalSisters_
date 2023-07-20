@@ -1,0 +1,40 @@
+body{
+        background-color:#6852a5;
+        overflow-x: hidden;
+}
+
+.img1{
+  width: 800px ;
+  margin-top: -150px;
+  margin-left: 100px;
+  margin-bottom: 70px;
+}
+
+iframe{
+    height: 200px;
+    width: 1000px;
+    margin: 5px;
+    border: solid 2px;
+    border-color: white;
+    box-shadow: 10px 10px 20px rgba(255, 255, 255, 0.250);
+    border-radius: 25px;
+}
+iframe:hover{
+    box-shadow: none;
+    border: none;
+    scale: 1.03;
+}
+
+@media (min-width: 100px) and (max-width: 369px) {
+
+}
+
+
+@media (min-width: 370px) and (max-width: 450px) {
+
+}
+
+
+@media (min-width: 451px) and (max-width: 950px) {
+
+}
